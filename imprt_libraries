@@ -1,0 +1,8 @@
+# importing pi
+
+import math
+print("the value of Pi is", math.pi)
+
+import statistics
+x = [123,455,66,77,78,44]
+print(statistics.mean(x))
