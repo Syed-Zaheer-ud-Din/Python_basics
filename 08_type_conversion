@@ -1,0 +1,19 @@
+# implicit conversion
+x = 9
+y = 2.5
+z = "Zaheer"
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+# conversion
+n = x * y
+print(type(n)) # here its converted into float
+
+#explicit conversion
+
+age = input("what is your age? ")
+print(type(age)) # here we see its string
+age = int(age) # here we converted string to int
+print(type(age))
