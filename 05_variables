@@ -1,0 +1,32 @@
+# # variables are containers having some values or string
+x=5
+y="Zaheer ud Din Syed"
+z=5.5
+
+print(x)
+print(y)
+print(z)
+x=x+5
+print(x)
+
+#type of variables.
+#type(x)
+print(type(x))
+print(type(y))
+print(type(z))
+#
+# #1 rules to defines variables.
+# #2- should contain letters, numbers, or underscores
+# #3- cannot start with numbers
+# #4- no space in name
+# #5- no function or syntax of pythons.
+# #6- short and descriptive
+# #7- Case sensitive, so use lowercase(recommended)
+
+# # string list
+fruit_basket = "oranges", "apples" # two things
+print(fruit_basket)
+fruits = "oranges, apples"
+print(fruits)
+fruit_no = 8
+print(type(fruit_no))
