@@ -1,0 +1,19 @@
+# #input function simple
+# fav_fruit = input("what is your favourite fruit? ")
+# print(fav_fruit)
+
+# # 2nd stage input function
+# name= input("What is your name? ")
+# greetings= "Hello!"
+# print(greetings ,name )
+
+# another way
+
+# name = input("what is your name? ")
+# print("Hello!", name)
+
+# 3rd way
+name = input("what is your name? ")
+greetings= "Hello!"
+age = input("how old are you? ")
+print(greetings, name, ", you are still young")
