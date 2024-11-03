@@ -1,0 +1,14 @@
+print(2+3)
+print(2-1)
+print(10/2)
+print(2*2)
+print(10/3)
+print(10%3) # remainder
+print(13//2) # gives integer instead of float (round off no)
+print(2**5) # power 2 the power 5
+
+print(3*31**2+3*2-1)  # sequence will be "PEMDAS"
+# perenthesis, Exponents, Multiplication, Division, Addition, Substraction.
+# Among MD, AS, first choice would be done on left to right basis
+
+
