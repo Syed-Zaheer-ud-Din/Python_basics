@@ -1,0 +1,19 @@
+# while, for
+
+x = 0 # initialize
+while (x<5): # while condition with colon
+    print(x)    # intended body
+    x=x+1       #increment
+
+#for loops
+
+for x in range(5, 10):
+    print(x)
+
+#### application for array + conditons
+
+days= ["mon", "tues", "wed", "thur", "fri", "sat"]
+for d in days:
+    #if (d== "wed"):break # loops stops
+    if (d== "fri"):continue # loops continue without fri
+    print(d)
