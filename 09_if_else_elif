@@ -1,0 +1,15 @@
+from traceback import print_tb
+
+age_at_school = 5
+hammad_age = 6
+
+# can hammad go to school?
+
+if hammad_age == age_at_school:
+    print("hammad can join the School")
+elif hammad_age > age_at_school:
+    print("Hammad can join the college")
+elif hammad_age == 2:
+    print("He is still a baby, take care at home")
+else:
+    print("Hammad cannot join the school")
