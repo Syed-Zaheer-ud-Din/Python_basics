@@ -1,0 +1,59 @@
+functions can be defined to make your lengthy work short commands
+
+print("Zaheer")
+print("Zaheer")
+print("Zaheer")
+print("Zaheer")
+
+#to make it a function we can define new function
+#1st way
+# see al world is defined by a single codanics function
+def codanics():
+    print("Zaheer")
+    print("Zaheer")
+    print("Zaheer")
+
+codanics()
+#
+# # 2nd way, now you can change sigle thing and it will be applied to all repeated text
+def codanics():
+    text = "Zaheer ud Din"
+    print(text)
+    print(text)
+codanics()
+
+# third way simple way just use text text text and finally in codanics funtion put what you want to write
+def codanics(text):
+    print(text)
+    print(text)
+    print(text)
+codanics("what is my Name is that Syed Zaheer ud Din")
+
+###### function + if else
+
+def codanics(age):
+    if age == 5:
+        print("Hammad can go to school")
+    elif age <5:
+        print("Hammad is a baby, take care at home")
+    else:
+        print("Hammad cannot go to school")
+codanics(5)
+
+# numberical function
+#future age predictor age after 20 year
+
+def future_age(age):
+    new_age = age+20
+    return new_age
+    print(new_age)
+predictive_future_age = future_age(2)
+print(predictive_future_age)
+
+
+
+
+
+
+
+
