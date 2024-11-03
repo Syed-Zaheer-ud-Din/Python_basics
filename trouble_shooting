@@ -1,0 +1,8 @@
+
+
+#syntax error
+# zero divion error, or run time error
+# this is another see example
+
+name = "ammar" # not ammar instead name written which is some times difficult to spot the problem
+print("hello name")
