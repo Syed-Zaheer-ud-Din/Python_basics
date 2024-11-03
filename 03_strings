@@ -1,0 +1,5 @@
+print("Syed Zaheer ud Din")
+print('Hello Zaheer')
+print("""hello three qoutes Zaheer""")
+print("Hi I'am Zaheer, I don't need to do that")
+print("what's up")  # so double qoute are used to use single qoute in this string
